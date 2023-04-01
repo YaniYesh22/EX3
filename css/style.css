@@ -3,7 +3,13 @@
     padding: 0;
 }
 
-header, main, footer, nav, aside, section, div  {
+header,
+main,
+footer,
+nav,
+aside,
+section,
+div {
     display: block;
 }
 
@@ -256,9 +262,10 @@ header, main, footer, nav, aside, section, div  {
 /* /////////////////////////////////////////////////////////////// */
 /* ////////////////////// -- LAYOUTS2 -- ///////////////////////// */
 /* /////////////////////////////////////////////////////////////// */
-.lay2 main{
+.lay2 main {
     align-content: flex-start;
 }
+
 .lay2 .point {
     position: absolute;
     background-color: #F72828;
@@ -285,7 +292,7 @@ header, main, footer, nav, aside, section, div  {
     text-align: center;
 }
 
-.leftSide{
+.leftSide {
     position: absolute;
     margin-left: 151px;
     margin-top: 119px;
@@ -301,41 +308,42 @@ header, main, footer, nav, aside, section, div  {
     background-color: #C4C4C4;
     width: 457px;
     height: 299px;
-    margin-bottom:70px;
+    margin-bottom: 70px;
 }
 
-aside{
+.lay2 aside {
     background-color: #EBEF18;
     width: 169px;
     height: 2185px;
     margin-left: 1271px;
 }
 
-.blackRec{
-    position:absolute;
+.blackRec {
+    position: absolute;
     background-color: #000000;
     width: 80px;
     height: 80px;
-    margin-top:119px;
+    margin-top: 119px;
 }
 
-.blackRec1{
-    position:absolute;
+.blackRec1 {
+    position: absolute;
     background-color: #000000;
     width: 80px;
     height: 80px;
-    margin-top:616px;
+    margin-top: 616px;
 }
-.whiteRec{
-    position:absolute;
+
+.whiteRec {
+    position: absolute;
     background-color: #ffffff;
     width: 80px;
     height: 80px;
-    margin-top:247px;
+    margin-top: 247px;
     margin-left: 89px;
 }
 
-.letters{
+.letters {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -345,7 +353,7 @@ aside{
     margin-left: 44px;
 }
 
-.letter{
+.letter {
     color: #000000;
     font-family: 'Amiko', sans-serif;
     font-style: normal;
@@ -358,7 +366,11 @@ aside{
     width: 81px;
 }
 
-.lay3 .blackRec{
+/* /////////////////////////////////////////////////////////////// */
+/* ////////////////////// -- LAYOUTS3 -- ///////////////////////// */
+/* /////////////////////////////////////////////////////////////// */
+
+.lay3 .blackRec {
     position: absolute;
     margin-top: 21px;
     margin-left: 1336px;
@@ -369,27 +381,75 @@ aside{
     margin: 0px auto;
 }
 
-.lay3 nav{
+.lay3 nav {
     position: relative;
     background-color: #E5E5E5;
     width: 372px;
     height: 995px;
 }
 
+.lay3 .Mix {
+    position: absolute;
+    margin-left: 38px;
+    margin-top: 123px;
+    text-decoration: none;
+}
+
+
+.lay3 .Stairs {
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 123px;
+    text-decoration: none;
+}
+
+
+.lay3 .Dynamic {
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 123px;
+    text-decoration: none;
+}
+
+
 .lay3 .point {
     position: absolute;
     background-color: #F72828;
     width: 14px;
     height: 14px;
-    margin-top: 34px;
-    margin-left: 686px;
+    margin-top: 105px;
+    margin-left: 301px;
     border-radius: 50px;
 }
 
 .lay3 .Mix h2:hover,
-.lay3 .Dynamic h2:hover {
+.lay3 .Stairs h2:hover {
     color: #6e6b6b;
     font-size: 18px;
     text-align: center;
 }
 
+.lay3 .blue {
+    position: absolute;
+    background-color: rgba(24, 71, 239, 0.3);
+    top: 123px;
+    width: 104px;
+    height: 995px;
+    left: 1336px;
+}
+
+.yellowBox {
+    position: absolute;
+    display: flex;
+    background-color: #EBEF18;
+    width: 1440px;
+    height: 463px;
+}
+
+.blackBox {
+    position: absolute;
+    background-color: #000000;
+    width: 1440px;
+    height: 41px;
+    margin-top: 463px;
+}
