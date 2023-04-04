@@ -11,8 +11,6 @@ header,main,footer,nav,aside,section,div{display: block;}
     height: 123px;
     background-color: #F2E9E9;
     align-items: center;
-    
-    
 }
 .mix .point {
     position: absolute;
