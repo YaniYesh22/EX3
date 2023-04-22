@@ -1,12 +1,12 @@
 $(document).ready(function () {
-    let num = 6;
+    let num = 3;
     initialize(num);
     const padding = 230;
     let blackRecHeight = $(".blacks").height();
     let yellowBoxTop = parseInt($(".yellowBox").css("top"), 10);
     let blackBoxTop = parseInt($(".blackBox").css("top"), 10);
     $(".blackRec").click(function () {
-        num += 2;
+        num += 3;
         initialize(num);
         blackRecHeight = $(".blacks").last().height();
         if (blackRecHeight >= $(window).width()) {
@@ -42,14 +42,14 @@ function initialize(num) {
         letterShown.push($(this));
         shown.push($(this).find(".letter").text());
         if(clickCount === 2){
-            if ($(this)[0] === letterShown[0][0]) {
+            if ($(this)[0] === letterShown[0][0]) {  //check if clicked the same elemnts
                 letterShown.pop().find(".letter").hide();
             }
-            else if(shown[0] !== shown[1]){
+            else if(shown[0] !== shown[1]){         // check if they didnt have the same letter
                 letterShown.pop().find(".letter").hide();
                 letterShown.pop().find(".letter").hide();
             }
-            else{
+            else{                                   // when same letters are found
                 letterShown[0].closest(".blacks").css("background-color", "#32d0dbcb");
                 letterShown[1].closest(".blacks").css("background-color", "#32d0dbcb");
                 $(letterShown.pop()).off("click");
