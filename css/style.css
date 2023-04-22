@@ -358,6 +358,16 @@ div {
     background-color: #000000;
     margin-bottom: 230px;
     margin-left: 130px;
+    position: relative;
+
+}
+
+.letter{
+        display: none;
+        color: white;
+        text-align: center;
+        position: absolute;
+        transform: translate(-50%, -50%);
 }
 
 .lay3 main {
