@@ -362,7 +362,7 @@ div {
 
 }
 
-.letter{
+.lay3 .letter{
         display: none;
         color: white;
         text-align: center;
@@ -462,6 +462,7 @@ div {
     background-color: #EBEF18;
     width: 1440px;
     height: 463px;
+    bottom: 0px;
 }
 
 .blackBox {

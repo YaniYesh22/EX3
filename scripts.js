@@ -13,7 +13,7 @@ $(document).ready(function () {
             window.alert(`You Have Reached the Size`);
             return;
         }
-        let totalHeight = blackRecHeight * 2 + padding; 
+        let totalHeight = blackRecHeight * 2 + padding * 2; 
         yellowBoxTop += totalHeight; 
         blackBoxTop += totalHeight; 
         $(".yellowBox").css("top", yellowBoxTop + "px"); 
